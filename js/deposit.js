@@ -1,4 +1,4 @@
-// DRY ---> Do not Repeat yourself
+// DRY ---> Do Not Repeat Yourself
 document.getElementById("btn-deposit").addEventListener("click", function () {
   /* 
     1. get the element by id
@@ -8,6 +8,7 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
   const newDepositAmount = getInputFieldValueById("deposit-field");
   /* 
     1. get previous deposit total by id
+
     */
   const previousDepositTotal = getTextElementValueById("deposit-total");
 
